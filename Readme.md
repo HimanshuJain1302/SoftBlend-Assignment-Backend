@@ -348,16 +348,3 @@ task-manager-api/
           "error": "string"
         }
         ```
-## Contributing
-Contributions are welcome! Please follow these guidelines:
-*   Fork the repository.
-*   Create a new branch for your feature or bug fix.
-*   Write clear and concise commit messages.
-*   Submit a pull request with a detailed description of your changes.
-## FAQ
-**Q: I'm getting a "Unauthorized" error when accessing the `/tasks` routes.**
-**A:** This means you are missing the `Authorization` header or the JWT is invalid. Make sure to include the header with the format `Authorization: Bearer <token>`, where `<token>` is the JWT you received after logging in.
-**Q: How do I connect to my MongoDB database?**
-**A:**  Set the `MONGO_URL` environment variable in your `.env` file to your MongoDB connection string.  For example: `MONGO_URL=mongodb://localhost:27017/task-manager`.
-## License
-This project is open source and available under the [MIT License](LICENSE). (Note: A license file was not provided in the codebase, so this is a placeholder. If a license file exists, update this section accordingly.)
