@@ -47,6 +47,7 @@ The project uses the following dependencies:
 *   **mongoose:** An ODM (Object-Document Mapper) for MongoDB.
 *   **nodemon:** (devDependencies) For automatically restarting the server during development.
 ## Code Structure
+```
 task-manager-api/
 ├── config/
 │   └── db.js             # MongoDB connection configuration
@@ -66,6 +67,7 @@ task-manager-api/
 ├── package.json          # Project metadata and dependencies
 ├── Readme.md             # Project documentation
 └── server.js             # Entry point for the server
+```
 **Key Components:**
 *   **`config/db.js`:**  Handles the connection to the MongoDB database.
 *   **`controllers/taskController.js`:** Contains the logic for handling task-related API requests (create, get, update, delete).
